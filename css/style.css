@@ -1,0 +1,996 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .notification{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  
+  .notification .badge {
+    position: absolute;
+    top: 7px;
+    right: -4px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    background-color: #E91C6A;
+    color: white;
+  }
+
+.nav1 nav .navbar-brand img{
+    height: 30px;
+}
+.nav1 nav{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.nav1 nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #7B7B7B;
+}
+.nav1 nav .logoandul{
+    padding: 10px;
+}
+.nav1 nav ul li{
+    margin-right: 40px;
+    /* padding-right: 40px; */
+}
+
+
+ /* style of nav 2 */
+
+ .nav2 {
+    margin-top: 20px;
+ }
+ .nav2 .navbar-light .navbar-nav .active a{
+    color: #E91C6A;
+    font-weight: bold;
+ }
+ .nav2 .navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.nav2 li {
+    margin-right: 26px;
+}
+.nav2 .btn{
+    background-color: #E91C6A;
+    border: none;
+    color: #fff;
+    border-radius: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* hair background style */
+
+.section2{
+  position: relative;
+    background: url(../images/hair.png); 
+    background-size: 100%; 
+    height: auto;
+     background-repeat: no-repeat;
+     border-top: 1px solid #E91C6A;
+     margin-top: 20px;
+     position: relative;
+}
+.section2 .sec2text{
+  margin-top: 50px;
+ 
+}
+.section2 .text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 4vw;
+}
+.section2 button{
+  margin-top: 30px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #E91C6A;
+    border: none;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section2 .sectionlinez img{
+  object-fit: cover;
+  height: 40px;
+  width: 170px;
+  margin-top: 30px;
+     margin-bottom: 33px;
+}
+
+
+.section2 .twoline .greyline{
+    height: 2px;
+    background-color: #6F6F6F;
+    width: 135px;
+    
+    
+}
+/* section3 style */
+.section3{
+    margin-top: 100px;
+}
+.section3 div{
+    display: inline-block;
+}
+.section3 .line {
+    margin: 5px 0;
+    height: 3px;
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 10px,
+      #E91C6A 10px,
+      #E91C6A 20px
+    );
+    width: 37%;
+    /*10px transparent then 10px black -> repeat this!*/
+  }
+  .section3 .text1{
+    color: #514F62;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  /* style of section 4 */
+  .imagesnewarival{
+    margin-top: 100px;
+  }
+  .imagesnewarival .sectionshadow .col-md-5{
+    position: relative;
+  }
+  .sectionshadow .col-md-5 img{
+    width: 100%; 
+     height: 320px;
+  }
+  .section4text{
+    position: absolute; 
+    bottom: 10px;
+    margin-left: 20px;
+  }
+  .section4text .text1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+  }
+  .section4text .text2{
+   font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+  }
+  
+  .section4text button{
+    border-radius: 0px;
+    color: #fff;
+    background-color: #E91C6A;
+    border: none;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .section4 img{
+        width: 100%;
+        height: auto;
+      
+  }
+  .section4 .off{
+    width: 55px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0%;
+    height: 20px;
+    background-color: #E91C6A;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .section4 .col-md-6{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 10px;
+  }
+  .section4 .jw{
+    color: #303030;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .section4 .net{
+    color: #303030;
+    
+    font-size: 10px;
+  }
+  .section4 .aed{
+    float: right;
+    color: #E91C6A;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  
+  .seall{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #E91C6A;
+    text-align: center;
+   
+  }
+  .seall a{
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #E91C6A;
+  }
+
+
+
+/* PRODUCTS */
+.product {
+  background-image: url(../images/sliderback.png);
+  background-size: 100%;
+  height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 25px;
+  }
+  .slider1{
+    background-image: url(../images/sliderback2.png);
+    background-size: 100%;
+    height: auto;
+  }
+  .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    max-width: 1200px;
+    padding: 0 7vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    margin-top: 30px;
+    background-color: #fff;
+    flex: 0 0 auto;
+    width: 269px;
+    height: 450px;
+    margin-right: 10px;
+    
+    margin-bottom: 30px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #E91C6A;
+    color: #fff;
+  }
+  
+  .product-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+  
+  .product-brand {
+    color: #303030;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .product-short-description {
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    color: #303030;
+    font-size: 10px;
+  }
+  
+  .price {
+    float: right;
+    color: #E91C6A;
+    font-size: 11px;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+  
+  .actual-price {
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    
+    width: 30px;
+    height: 40px;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+  
+
+  /* style of top seller */
+  .topimages .image{
+    position: relative;   
+    }
+    .topimages .image1{
+      position: relative; 
+     
+      
+      }
+      .topimages .responsive {
+        width: 100%;
+        height: auto;
+      }
+      .topimages img{
+        height: 525px;
+         max-width: 100%;
+         object-fit: cover;
+      }
+      .topimages .sectiontext{
+        position: absolute;
+         bottom:-10px;
+      }
+      .topimages .sectiontext .texthead{
+        font-size: 35px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 20px;
+      }
+      .topimages .sectiontext .dtext{
+        color: #fff;
+        font-size: 11px;
+        font-weight: 0;
+        margin-left: 20px;
+      }
+      .topimages .sectiontext .button,
+      .topimages .sectiontext1 .button{
+        text-align: center;  
+        width: 100%;       
+      }
+      .topimages .sectiontext button{
+        /* margin-left: 190px; */
+        border-radius: 0px;
+        color: #fff;
+        background-color: #E91C6A;
+        border: none;
+        font-weight: bold;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 20px;
+      
+      }
+      /* .topimages .image1 .sectiontext1{
+        position: absolute; 
+        bottom: -10px;
+        }
+      .topimages .sectiontext1 .texthead{
+          font-size: 35px;
+          font-weight: bold;
+          color: #fff;
+          margin-left: 20px;
+        }
+        .topimages .sectiontext1 .dtext{
+          color: #fff;
+          font-size: 11px;
+          font-weight: 0;
+          margin-left: 20px;
+        }
+        .topimages .sectiontext1 button{
+          
+        border-radius: 0px;
+      color: #fff;
+      background-color: #E91C6A;
+      border: none;
+      font-weight: bold;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-top: 20px;
+        } */
+
+
+    /* style of skin care */
+
+    .skincare{
+      background-image: url(../images/skincare.png); 
+      background-size: 100%; 
+      height: auto;
+      background-repeat: no-repeat;
+      
+    }
+    .skincare .number{
+      font-weight: bold;
+      font-size: 8vw;
+      color: #514F62;
+    }
+    .skincare .sign{
+      
+      font-size: 5vw;
+      color: #514F62;
+    }
+    .skincare .dis{
+      font-size: 4vw;
+      color: #514F62;
+    }
+    .skincare .sectioncare{
+      margin-left: 50px;
+    }
+    .skincare .sectioncare .all{
+      color: #E91C6A;
+      font-size: 3vw;
+    }
+    .skincare .sectioncare .skin{
+      color: #E91C6A;
+      font-size: 4vw;
+      font-weight: bold;
+    }
+    .skincare .sectioncare .item{
+      color: #E91C6A;
+      font-size: 3vw;
+    }
+    .skincare  button{
+      margin-left: 20px;
+      border-radius: 0px;
+    color: #fff;
+    background-color: #E91C6A;
+    border: none;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 31px;
+    margin-top: 20px;
+    }
+
+    /* style of embasider */
+
+    .embasider{
+      margin-top: 100px;
+      background-image: url(../images/maskback.png);
+      background-size: 450px;
+      height: auto;
+      background-repeat: no-repeat;
+    }
+    .embasider .emname{
+      margin-left: 460px
+    }
+    
+    .embasider .emname span{
+      color: #514F62;
+      font-weight: bold;
+      font-size: 3vw;
+    }
+    .embasider .emname div{
+      display: inline-block;
+    }
+    .embasider .line{
+     
+      margin: 5px 0;
+      height: 3px;
+      background: repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent 10px,
+        #E91C6A 10px,
+        #E91C6A 20px
+      );
+      width: 40vw;
+      /*10px transparent then 10px black -> repeat this!*/
+    }
+    .embasider  .emprofile{
+      margin-left: 195px;
+      margin-top: 50px;
+    }
+    
+    .emprofile .emcard{
+      
+     margin-left: 50px;
+     
+    }
+    .emcard{
+      background-color: #fff;
+    }
+    .emcard .ambimg img{
+      width: 100%;
+      object-fit: cover;
+       height: 300px;
+    }
+    .emcard .bname{
+      margin-top: 10px;
+      color: #E91C6A;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .cardsection{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .emcard .filed .fieldin{
+      height: 20px;
+      background: transparent;
+      border: 1px solid #6F6F6F;
+      color: #6F6F6F;
+      font-size: 11px;
+      text-align: center;
+      width: 120px;
+      height: 20px;
+      border-radius: 25px;
+    }
+    .emcard .cardiamge{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;   
+    }
+    .emcard .cardiamge img{
+      height: 20px;
+      width: 120px;
+    }
+    .emcard .cbutton button{
+      margin-top: 20px;
+      background-color: #E91C6A;
+      border: none;
+      color: #fff;
+      font-size: 11px;
+      border-radius: 0px;
+
+      /* padding-left: 25px; */
+      padding-right: 20px;
+      margin-bottom: 20px;
+      
+    }
+    
+    
+  
+
+    /* footer csss */
+    footer{
+      background-color: #514F62;
+      position: relative;
+      background-size: 100%;
+      height: auto;
+    }
+    footer .footsec{
+      padding-top: 100px;
+    }
+    footer .imgdiv img{
+      width: 100%;
+      object-fit: cover;
+    }
+    footer .fbrand{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: underline  #fff 2px;
+    }
+    footer .buttonf1 button{
+      margin-top: 30px;
+        background-color: #E91C6A;
+        border: none;
+        color: #fff;
+        font-size: 10px;
+        border-radius: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    footer .miraih span{
+      font-size: 12px;
+      color: #fff;
+      
+      
+    }
+    footer .miraih .aboutus,
+    footer .miraih .contactus,
+    footer .miraih .promos,
+    footer .miraih .become{
+      margin-top: 25px; 
+    }
+    
+    footer .policy span{
+      font-size: 12px;
+      color: #fff;
+      
+      
+    }
+    footer .policy .term{
+      margin-top: 45px;
+    }
+
+    footer .policy .return,
+    footer .policy .privacy{
+      margin-top: 24px;
+    }
+    footer .categories span{
+      font-size: 12px;
+      color: #fff;
+      
+    }
+    footer .categories .skicare{
+      margin-top: 45px;
+    }
+    footer .categories .makeup,
+    footer .categories .haircare,
+    footer .categories .bath,
+    footer .categories .beauty{
+      margin-top: 24px;
+    }
+    footer .subtex {
+      margin-top: 45px;
+    }
+    footer .subtex span{
+      font-size: 12px;
+      color: #fff;
+    }
+    footer .copyright{
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    footer .copyright span{
+      font-size: 12px;
+      font-weight: bold;
+      color: #fff;
+    }
+    footer .subbtn{
+      margin-top: 20px;
+    }
+    
+    footer .subbtn .srch{
+      width: 200px;
+      height: 40px;
+      background: #fff;
+      border: none;
+      margin-top: 13px;
+      color: #6F6F6F;
+      border-right: none;
+      font-size: 11px;
+      font-weight: bold;
+      float: left;
+      text-align: center;	
+      border-bottom-left-radius: 25px;
+      border-top-left-radius: 25px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    }
+    footer .subbtn .btn{
+      width: 100px;
+      height: 40px;
+      font-weight: bold;
+      padding-left: 20px;
+      padding-right: 20px;
+      background: #E91C6A;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 13px;
+      font-size: 11px;
+      border-bottom-right-radius: 25px;
+      border-top-right-radius: 25px ;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+    @media (max-width: 359px){
+      .section3 .line {
+        margin: 5px 0;
+        height: 3px;
+        background: repeating-linear-gradient(
+          to right,
+          transparent,
+          transparent 10px,
+          #E91C6A 10px,
+          #E91C6A 20px
+        );
+        width: 38%;
+        /*10px transparent then 10px black -> repeat this!*/
+      }
+      .section2 .text{
+        margin-top: 0px;
+      }
+    .section2 button{
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 5px;
+        line-height: 4px;
+        text-align: center;
+    }
+    
+    .section2 .sectionlinez img{
+      margin-bottom: 20x;
+      height: 20px;
+      width: 100px;
+     
+         margin-bottom: 0px;
+    }
+      footer .subbtn .srch{
+        width: 100px;
+        height: 20px;
+        font-size: 5px;
+        
+        
+      
+      }
+      footer .subbtn .btn{
+        width: 50px;
+        height: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 5px;
+        padding-top: 0;
+        
+      }
+      footer .copyright{
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      footer .copyright span{
+        font-size: 8px;
+        font-weight: bold;
+        color: #fff;
+      }
+      
+
+    }
+    @media (max-width: 625){
+      footer .copyright img{
+        height: 20px;
+      }
+    }
+    @media (max-width : 1199px) and (min-width: 768px){
+      footer .subbtn .srch{
+        width: 130px;
+        height: 30px;
+        font-size: 10px;
+        
+        
+      
+      }
+      footer .subbtn .btn{
+        width: 70px;
+        height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 8px;
+        
+      }
+
+    }
+    @media (max-width : 991px) and (min-width: 768px){
+      .subscribe{
+        margin-left: 20px;
+      }
+    }
+    @media (max-width : 900px){
+      .skincare  button{
+        font-size: 10px;
+        line-height: 6px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 0px;
+     
+      }
+    }
+    @media (max-width : 991px){
+      .topimages .image{
+        margin-bottom: 20px;       
+        }
+       
+    }
+    @media (max-width : 530px){
+      .topimages .image img{ 
+        }
+    }
+
+    @media (max-width: 386px){
+      .section3 .line {
+        margin: 1px 0;
+        height: 3px;
+        background: repeating-linear-gradient(
+          to right,
+          transparent,
+          transparent 10px,
+          #E91C6A 10px,
+          #E91C6A 20px
+        );
+        width: 30%;
+        /*10px transparent then 10px black -> repeat this!*/
+      }
+    }
+    @media (max-width: 991px){
+      .embasider{
+        margin-top: 100px;
+        background-image: none;
+        margin-left: 0px;
+        
+      } 
+      .embasider .emname{
+        margin-left: 70px;
+      }
+      .embasider  .emprofile{
+        margin-left: 0px;
+      }
+      
+    }
+    @media (max-width: 575px){
+      .embasider .emprofile .emcard{
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    @media (max-width: 1199px){
+      .nav2 .navbar-light .navbar-nav .nav-link {
+        font-size: 11px;
+      }
+      .nav2 .btn{
+        font-size: 10px ;
+    }
+    }
+    @media (max-width: 543px){
+      footer .imgdiv img{
+        display: none;
+      }
+    }
+    @media (max-width: 991px){
+      /* .subscribe{
+        margin-left: auto;
+        margin-right: auto;
+      } */
+    }
+    @media (max-width: 320px){
+      .topimages img{
+        height: auto;
+         max-width: 100%;
+         object-fit: cover;
+      }
+      
+
+    }
+    @media (min-width: 768px) and (max-width : 991px){
+      footer .footer{
+        margin-right: 50px;
+      }
+    }
+    @media (max-width: 800px) {
+      .section2 button{
+        margin-top: 5px;
+        
+      }
+      
+      .section2 .sectionlinez img{
+        
+        margin-top: 5px;
+           
+      }
+      .section2 .sec2text{
+        margin-top: 0px;
+      }
+    }
+
+    
